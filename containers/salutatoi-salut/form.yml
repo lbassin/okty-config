@@ -1,0 +1,30 @@
+name: Name
+logo: Logo
+config:
+    -
+        id: group_0
+        label: Général
+        fields:
+            -
+                id: name
+                label: 'Container ID'
+                type: input
+                destination: id
+                value: salutatoi-salut
+                base: ''
+                validators: {  }
+                source: {  }
+            -
+                label: 'mysql port'
+                destination: ports
+                type: input
+                base: '3306'
+                value: '80'
+                id: mysql-port
+            -
+                label: 'path src'
+                destination: volumes
+                type: input
+                base: /app
+                value: ./src
+                id: path-src
