@@ -1,0 +1,13 @@
+name: Name
+logo: Logo
+config:
+    -
+        id: group_0
+        label: Général
+        fields:
+            -
+                label: 'Container ID'
+                destination: id
+                type: input
+                value: ok
+                id: Container-ID
