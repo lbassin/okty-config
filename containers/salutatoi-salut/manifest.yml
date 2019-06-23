@@ -1,0 +1,3 @@
+docker:
+    image: salutatoi/salut
+    tag: latest
